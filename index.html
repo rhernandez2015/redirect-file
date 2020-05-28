@@ -16,15 +16,19 @@
 </head>
 
 <body>
-    <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
     <h1>Redirect Tester</h1>
+    <button onclick="changeURL()">
+        Redirect
+    </button>
     <script>
-        setTimeout(function () {
-            console.log("redirecting!");
+//         setTimeout(function () {
+//             console.log("redirecting!");
+//             window.location.href = "http://localhost:3000/doop/index.html";
+//         }, 5000);
+        
+        function changeURL(){
             window.location.href = "http://localhost:3000/doop/index.html";
-        }, 5000);
+        }
     </script>
 </body>
 
